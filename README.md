@@ -23,7 +23,11 @@ A fully responsive E-Commerce web application built using React, featuring produ
 react-project/
 │
 ├── src/
-│   ├── assets/              # Images & static files
+│   ├── assets/
+│       ├── Loading.webm/
+│       ├── bg-image.png/
+│       ├── loder2.webm/
+               
 │
 │   ├── components/
 │   │   ├── Breadcrumb.jsx
@@ -46,7 +50,7 @@ react-project/
 │   │   └── DataContext.jsx
 │
 │   ├── pages/
-│   │   ├── Home.jsx
+│   │   ├── HomePage.jsx
 │   │   ├── About.jsx
 │   │   ├── Cart.jsx
 │   │   ├── Contact.jsx
@@ -69,7 +73,9 @@ react-project/
 * 🧠 Context API (State Management)
 * 🔔 React Toastify
 * 🎯 Lucide React (Icons)
+* 🎯 React icon (Icons)
 * 🌐 DummyJSON API
+* 🌐 React Routing
 
 ---
 
@@ -81,6 +87,7 @@ react-project/
 * 🔐 Protected routes for secure pages
 * 🛒 Persistent cart using localStorage
 * 🎯 Clean and scalable folder structure
+* 🔐 Authentication System (Clerk / Firebase)
 
 ---
 
@@ -97,14 +104,13 @@ npm run dev
 
 ## 📸 Screenshots
 
-(Add your project screenshots here)
+
 
 ---
 
 ## 🚀 Future Enhancements
 
 * 💳 Payment Integration
-* 🔐 Authentication System (Clerk / Firebase)
 * 📦 Order History
 * 🌙 Dark Mode
 
