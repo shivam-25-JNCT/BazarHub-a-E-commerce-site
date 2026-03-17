@@ -1,16 +1,121 @@
-# React + Vite
+# 🛒 E-Commerce React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive E-Commerce web application built using React, featuring product browsing, filtering, cart management, and modern UI/UX.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🔍 Search & Filter Products (Category, Brand, Price)
+* 🛒 Add to Cart & Cart Management
+* 📱 Fully Responsive Design (Mobile + Desktop)
+* 🧭 Dynamic Routing with Protected Routes
+* 🧠 Global State Management using Context API
+* 🎨 Modern UI using Tailwind CSS
+* 🔔 Toast Notifications
+* 💾 LocalStorage Integration (Cart persistence)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🏗️ Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+react-project/
+│
+├── src/
+│   ├── assets/              # Images & static files
+│
+│   ├── components/
+│   │   ├── Breadcrumb.jsx
+│   │   ├── Carousel.jsx
+│   │   ├── Category.jsx
+│   │   ├── Feature.jsx
+│   │   ├── FilterSection.jsx
+│   │   ├── Footer.jsx
+│   │   ├── MidBanner.jsx
+│   │   ├── MobileFilter.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Pagination.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── ProductView.jsx
+│   │   ├── ProtectedRoute.jsx
+│   │   └── ResponsiveUI.jsx
+│
+│   ├── context/
+│   │   ├── CartContext.jsx
+│   │   └── DataContext.jsx
+│
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Contact.jsx
+│   │   ├── CategoryProduct.jsx
+│   │   ├── SingleProduct.jsx
+│
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ React.js
+* 🎨 Tailwind CSS
+* 🧠 Context API (State Management)
+* 🔔 React Toastify
+* 🎯 Lucide React (Icons)
+* 🌐 DummyJSON API
+
+---
+
+## 🌟 Key Highlights
+
+* 📦 Modular and reusable components
+* ⚡ Fast and optimized UI
+* 📱 Mobile-first responsive design
+* 🔐 Protected routes for secure pages
+* 🛒 Persistent cart using localStorage
+* 🎯 Clean and scalable folder structure
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/your-username/react-project.git
+cd react-project
+npm install
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+(Add your project screenshots here)
+
+---
+
+## 🚀 Future Enhancements
+
+* 💳 Payment Integration
+* 🔐 Authentication System (Clerk / Firebase)
+* 📦 Order History
+* 🌙 Dark Mode
+
+---
+
+## 👨‍💻 Author
+
+**Shivam Sahu**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
